@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <script src="/main.js" defer></script>
+    <title>Favorite Art</title>
+</head>
+<body>
+    <div class="header"><h1>Some art courtesy of <img src="/images/artic-logo.png" alt="Art Institute of Chicago square logo: thin white letters on red background" class="artic-logo"></h1>
+    </div>
+    <div class="container">
+        <div class="gallery">
+            <figure class="class gallery__item gallery__item--1" id="fig1" onclick="event.stopPropogation(); getArt(this.id, event)">
+                <img src="/images/Flower-Girl-in-Holland.jpg" id="138" alt="Painting of a young woman outdoors in a light purple dress and head covering with a wooden yoke around her neck suspending large bundles of brightly colored flowers. She stands on a path adjacent to a river, facing the wall of a red-brick house at right." class="gallery__img">
+            </figure>
+            <figure class="class gallery__item gallery__item--2" id="fig2" onclick="event.stopPropogation(); getArt(this.id, event)">
+                <img src="/images/The-Poets-Garden.jpg" id="14586" alt="Lush tall grasses with small white flowers foreground a grove of bushy trees of varying types and heights, their leaves ranging from deep green to golden. Beneath a dense and heavy yellow sky, a small blue triangle suggesting a mountain peak crests above the treeline at far left." class="gallery__img">
+            </figure>
+            <figure class="class gallery__item gallery__item--3" id="fig3" onclick="event.stopPropogation(); getArt(this.id, event)">
+                <img src="/images/Landscape-with-Two-Poplars.jpg" id="8980" alt="Vibrant yellow, red, blue, and green painting of landscape with trees and mountains." class="gallery__img">
+            </figure>
+            <figure class="class gallery__item gallery__item--4" id="fig4" onclick="event.stopPropogation(); getArt(this.id, event)">
+                <img src="/images/Landscape.jpg" id="874" alt="Painting of linens drying on a fence in a field under a dark, overcast sky, a dirt road at left leading to a small village." class="gallery__img">
+            </figure>
+            <figure class="class gallery__item gallery__item--5" id="fig5" onclick="event.stopPropogation(); getArt(this.id, event)">
+                <img src="/images/Woman-at-the-Piano.jpg" id="25825" alt="Painting of a light-skinned woman dressed in a gauzy white gown with black trim playing an upright paino." class="gallery__img">
+            </figure>
+            <figure class="class gallery__item gallery__item--6" id="fig6" onclick="event.stopPropogation(); getArt(this.id, event)">
+                <img src="/images/Water-Lily-Pond.jpg" id="87088" alt="Painting of a small pond dense with pink water lilies, their roots visible through the water, a railed footbridge arching over the pond and lush, dark green folliage surrounding it." class="gallery__img">
+            </figure>
+            <figure class="class gallery__item gallery__item--7" id="fig7" onclick="event.stopPropogation(); getArt(this.id, event)">
+                <img src="/images/Cliff-Walk-at-Pourville.jpg" id="14620" alt="Painting of a cliff overlooking the sea. Two figures in long dresses, one with a parasol, stand on the cliff beneath blue sky." class="gallery__img">
+            </figure>
+            <figure class="class gallery__item gallery__item--8" id="fig8" onclick="event.stopPropogation(); getArt(this.id, event)">
+                <img src="/images/Arrival-of-the-Normandy-Train.jpg" id="16571" alt="Loosely painted image of an open-air train station. On the right, a parked train gives off an enormous plumb of white smoke, making the scene look as though it were full of clouds. A huddled mass of barely discernible people crowd around the train on both sides of the tracks. Blue, green, and gray tones dominate." class="gallery__img">
+            </figure>
+            <figure class="class gallery__item gallery__item--9" id="fig9" onclick="event.stopPropogation(); getArt(this.id, event)">
+                <img src="/images/Paris-Street-Rainy-Day.jpg" id="20684" alt="Life-size painting of an urban scene in Paris. A man in a top hat holding an umbrella and a woman in a long fashionable dark dress walk arm in arm toward the viewer as other city dwellers with umbrellas walk in various directions across cobblestone roads and sidewalks." class="gallery__img">
+            </figure>
+        </div>
+        <div class="buttoncontain">
+            <button onclick="clearalert()">Clear Screen</button>
+        </div>
+    </div>
+</body>
+</html>
