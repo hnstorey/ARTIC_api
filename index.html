@@ -12,6 +12,11 @@
     <div class="header"><h1>Some art courtesy of <img src="/images/artic-logo.png" alt="Art Institute of Chicago square logo: thin white letters on red background" class="artic-logo"></h1>
     </div>
     <div class="container">
+        <div class="infocontain">
+            <h4 id="info"></h4>
+        </div>
+    </div>
+    <div class="container">
         <div class="gallery">
             <figure class="class gallery__item gallery__item--1" id="fig1" onclick="getArt(this.id, event)">
                 <img src="/images/Flower-Girl-in-Holland.jpg" id="138" name="Flower Girl in Holland" artist="George Hitchcock" alt="Painting of a young woman outdoors in a light purple dress and head covering with a wooden yoke around her neck suspending large bundles of brightly colored flowers. She stands on a path adjacent to a river, facing the wall of a red-brick house at right." class="gallery__img">
@@ -30,6 +35,7 @@
             </figure>
             <figure class="class gallery__item gallery__item--6" id="fig6" onclick="getArt(this.id, event)">
                 <img src="/images/Water-Lily-Pond.jpg" id="87088" name="Water Lily Pond" artist="Claude Monet" alt="Painting of a small pond dense with pink water lilies, their roots visible through the water, a railed footbridge arching over the pond and lush, dark green folliage surrounding it." class="gallery__img">
+                <h4 id="info"></h4>
             </figure>
             <figure class="class gallery__item gallery__item--7" id="fig7" onclick="getArt(this.id, event)">
                 <img src="/images/Cliff-Walk-at-Pourville.jpg" id="14620" name="Cliff Walk at Pourville" artist="Claude Monet" alt="Painting of a cliff overlooking the sea. Two figures in long dresses, one with a parasol, stand on the cliff beneath blue sky." class="gallery__img">
@@ -42,7 +48,7 @@
             </figure>
         </div>
         <div class="buttoncontain">
-            <button onclick="clearalert()">Clear Screen</button>
+            <button onclick="clearScreen()">Clear Screen</button>
         </div>
     </div>
 </body>

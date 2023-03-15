@@ -32,10 +32,21 @@ h1 {
     width: auto;
 }
 
+.infocontain {
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    margin-left: 36%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .gallery {
+    padding-top: 100px;
     display: grid;
     grid-template-columns: repeat(12);
-    grid-template-rows: repeat(12)
+    grid-template-rows: repeat(12);
+    grid-gap: 30px;
 }
 
 .gallery__img {
